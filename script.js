@@ -51,17 +51,17 @@ function game() {
   let scorePlayer = 0;
   let scoreComputer = 0;
   console.log("Welcome");
-  for (let i = 0; i < 5; i++) {
-    const playerSelection = getPlayerChoice();
-    const computerSelection = getComputerChoice();
-    console.log(playRound(playerSelection, computerSelection));
-    console.log("/*/*/*/*/*/*/*/*/*/*/*/*");
-    if (checkWinner(playerSelection, computerSelection) == "Player") {
-      scorePlayer++;
-    } else if (checkWinner(playerSelection, computerSelection) == "Computer") {
-      scoreComputer++;
-    }
-  }
+  // for (let i = 0; i < 5; i++) {
+  //   const playerSelection = getPlayerChoice();
+  //   const computerSelection = getComputerChoice();
+  //   console.log(playRound(playerSelection, computerSelection));
+  //   console.log("/*/*/*/*/*/*/*/*/*/*/*/*");
+  //   if (checkWinner(playerSelection, computerSelection) == "Player") {
+  //     scorePlayer++;
+  //   } else if (checkWinner(playerSelection, computerSelection) == "Computer") {
+  //     scoreComputer++;
+  //   }
+  // }
   console.log("Game Over");
   if (scorePlayer > scoreComputer) {
     console.log(`Player was the winner:${scorePlayer} wins`);

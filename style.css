@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #121212;
+}
+
+#result {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+#score {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 600px;
+  max-width: 100%;
+  padding: 4px;
+  margin: 0 auto;
+}
+#playerScore {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 8px;
+  font-weight: bold;
+}
+#computerScore {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 8px;
+  font-weight: bold;
+}
+button {
+  font-size: 30px;
+  color: white;
+  border-radius: 20px;
+  background-color: #008cba;
+  margin: 15px;
+  padding: 10px 30px;
+  border: 3px solid #008cba;
+  -webkit-user-select: none;
+  user-select: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #05455a;
+}
